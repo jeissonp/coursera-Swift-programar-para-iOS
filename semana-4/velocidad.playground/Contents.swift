@@ -41,6 +41,4 @@ var auto: Auto = Auto()
 for i in 1...20 {
     let result = auto.cambioDeVelocidad()
     print("\(i). \(result.actual), \(result.velocidadEnCadenas)")
-
-
 }
