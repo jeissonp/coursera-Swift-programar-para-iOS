@@ -17,7 +17,7 @@ class ColeccionDePaises {
 }
 
 class ColeccionDeHamburguesas {
-    let hamburguesas: [String] = ["Hamburguesa Ranchera", "Hamburguesa Criolla", "Hamburguesa Barbacoa Ranchera", "Hamburguesa Cebollas Caramelizadas", "Hamburguesa Big Mac", "Hamburguesa Bacon Clubhouse", "Hamburguesa McDoble", "Hamburguesa Pollo Premium", "Hamburguesa Clubhouse Bacon Grillé", "Hamburguesa Patagonia", "Hamburguesa Rodeo Caribe", "Hamburguesa Rodeo Mexicano", "Hamburguesa Rodeo Pechuga", "Hamburguesa Rodeo Doble Carne"]
+    let hamburguesas: [String] = ["Hamburguesa Ranchera", "Hamburguesa Criolla", "Hamburguesa Barbacoa Ranchera", "Hamburguesa Cebollas Caramelizadas", "Hamburguesa Big Mac", "Hamburguesa Bacon Clubhouse", "Hamburguesa McDoble", "Hamburguesa Pollo Premium", "Hamburguesa Clubhouse Bacon Grillé", "Hamburguesa Patagonia", "Hamburguesa Rodeo Caribe", "Hamburguesa Rodeo Mexicano", "Hamburguesa Rodeo Pechuga", "Hamburguesa Rodeo Doble Carne", "Hamburguesa de Salmon", "Hamburguesa de ternera con bacon y queso", "Hamburguesa de conejo con cebolla", "Hamburguesa de pato y morcilla", "Hamburguesa de cordero con cebolla frita y patatas chips"]
     
     func obtenHamburguesa() -> String {
         return hamburguesas[Int(arc4random()) % hamburguesas.count]

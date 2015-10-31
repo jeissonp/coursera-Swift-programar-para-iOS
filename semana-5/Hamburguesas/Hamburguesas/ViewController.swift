@@ -32,6 +32,12 @@ class ViewController: UIViewController {
         
         pais.text = paises.obtenPais()
         hamburguesa.text = hamburguesas.obtenHamburguesa()
+        
+        let red = CGFloat(arc4random()) % 255
+        let green = CGFloat(arc4random()) % 255
+        let blue = CGFloat(arc4random()) % 255
+
+        view.backgroundColor = UIColor(red: red / 255, green: green / 255, blue: blue / 255, alpha: 1)
     }
 
 }
